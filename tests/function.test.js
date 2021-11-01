@@ -43,7 +43,7 @@ describe('strictlyEqual', () => {
 
   it('return false if values are not strictlyequal', () => {
     const firstValue = 'this is a string'
-    const secondValue = '5'
+    const secondValue = '6'
 
     const result = strictlyEqual(firstValue, secondValue)
 
